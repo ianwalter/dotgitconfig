@@ -4,7 +4,7 @@ Ian's git configuration.
 ## Aliases
 
 * `git l` - View abbreviated SHA, description, and history graph of the latest
-20 commits.
+  20 commits.
 * `git s` - View the current working tree status using the short format.
 * `git go` - Switch to a branch, creating it if necessary.
 * `git tags` - Show verbose output about tags.
@@ -13,9 +13,9 @@ Ian's git configuration.
 * `git remotes` - Show verbose output about remotes.
 * `git amend` - Amend the currently staged files to the latest commit.
 * `git retag` - Remove the old tag with this name and tag the latest commit with
-it.
+  it.
 * `git dm` - Remove branches that have already been merged with master AKA
-'delete merged'.
+  'delete merged'.
 * `git contributors` - List contributors with number of commits.
 * `git clear` - Blow away everything including untracked files and directories.
 
