@@ -1,5 +1,5 @@
 # [dotgitconfig](https://github.com/ianwalter/dotgitconfig)
-Ian's git configuration.
+Ian's git configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
 
 ## Aliases
 
