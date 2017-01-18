@@ -1,5 +1,5 @@
-# [dotgitconfig](https://github.com/ianwalter/dotgitconfig)
-Ian's git configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
+# dotgitconfig
+> Ian's git configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
 
 ## Aliases
 
@@ -19,6 +19,10 @@ Ian's git configuration (part of [dotfiles](https://github.com/ianwalter/dotfile
 * `git contributors` - List contributors with number of commits.
 * `git clear` - Blow away everything including untracked files and directories.
 
+## Requirements
+
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
+
 &nbsp;
 
-Created by [Ian Kennington Walter](http://iankwalter.com).
+Created by [Ian Walter](http://iankwalter.com).

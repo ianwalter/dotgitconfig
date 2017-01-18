@@ -57,3 +57,6 @@
 [user]
   name = Ian Walter
   email = public@iankwalter.com
+
+[core]
+  pager = diff-so-fancy | less --tabs=4 -RFX
