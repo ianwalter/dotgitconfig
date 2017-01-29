@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm install -g diff-so-fancy
+
 cp .gitconfig ~/.gitconfig
 
 if [[ $? == 0 ]]; then
