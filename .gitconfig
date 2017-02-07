@@ -59,4 +59,5 @@
   email = public@iankwalter.com
 
 [core]
+  ignorecase = false
   pager = diff-so-fancy | less --tabs=4 -RFX
