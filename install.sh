@@ -2,7 +2,7 @@
 
 # Install diff-so-fancy diffing tool if NPM is installed.
 if [ `which npm` ]; then
-  npm install -g diff-so-fancy
+  npm install -g diff-so-fancy commitizen
 fi
 
 cp .gitconfig ~/.gitconfig
