@@ -10,14 +10,14 @@
 * `git tags` - Show verbose output about tags.
 * `git branches` - Show verbose output about branches.
 * `git remotes` - Show verbose output about remotes.
-* `git remotes` - Show verbose output about remotes.
 * `git amend` - Amend the currently staged files to the latest commit.
 * `git retag` - Remove the old tag with this name and tag the latest commit with
   it.
 * `git dm` - Remove branches that have already been merged with master AKA
   'delete merged'.
 * `git contributors` - List contributors with number of commits.
-* `git clear` - Blow away everything including untracked files and directories.
+* `git switch` - Fetch a branch and check it out.
+* `git pushall` - Push the current branch to all remotes.
 
 ## Requirements
 
