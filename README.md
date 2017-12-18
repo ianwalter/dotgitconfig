@@ -19,9 +19,10 @@
 * `git switch` - Fetch a branch and check it out.
 * `git pushall` - Push the current branch to all remotes.
 
-## Requirements
+## NPM Packages
 
 * [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
+* [commitizen](http://commitizen.github.io/cz-cli/) - Simple commit conventions for internet citizens.
 
 &nbsp;
 
