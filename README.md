@@ -1,5 +1,6 @@
 # dotgitconfig
-> Ian's git configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
+> Ian's git configuration (part of
+  [dotfiles](https://gitlab.recursive.run/ianwalter/dotfiles)).
 
 ## Aliases
 
