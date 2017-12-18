@@ -57,6 +57,9 @@
   # Fetch a branch and check it out.
   switch = !sh -c 'git fetch $1 $2 && git checkout $2' -
 
+  # Push current branch to all remotes.
+  pushall = "!f() { git remote | xargs -L1 -I R git push R $(git rev-parse --abbrev-ref HEAD); }; f"
+
 [user]
   name = Ian Walter
   email = public@iankwalter.com
