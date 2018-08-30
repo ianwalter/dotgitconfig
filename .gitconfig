@@ -1,9 +1,6 @@
 [push]
   default = current
 
-[help]
-  autocorrect = -1
-
 [color "branch"]
   current = yellow reverse
   local = yellow
@@ -44,7 +41,7 @@
 
   # Remove branches that have already been merged with master AKA
   # 'delete merged'.
-  dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+  dm = "!git checkout master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git checkout -"
 
   # List contributors with number of commits.
   contributors = shortlog --summary --numbered
