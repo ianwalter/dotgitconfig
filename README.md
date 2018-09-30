@@ -1,6 +1,6 @@
 # dotgitconfig
 > Ian's git configuration (part of
-  [dotfiles](https://gitlab.recursive.run/ianwalter/dotfiles)).
+  [dotfiles](https://gitlab.recursive.run/ianwalter/dotfiles))
 
 ## Aliases
 
@@ -17,14 +17,30 @@
 * `git dm` - Remove branches that have already been merged with master AKA
   'delete merged'.
 * `git contributors` - List contributors with number of commits.
-* `git switch` - Fetch a branch and check it out.
+* `git switch <remote> <branch>` - Fetch a branch and check it out.
 * `git pushall` - Push the current branch to all remotes.
 
-## NPM Packages
+## Dependencies
 
-* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin' diffs. Actually… nah… The best-lookin' diffs.
-* [commitizen](http://commitizen.github.io/cz-cli/) - Simple commit conventions for internet citizens.
+* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin'
+diffs. Actually… nah… The best-lookin' diffs.
+
+## Installation
+
+Copies git configuration to your home directory:
+
+```console
+./install.sh
+```
+
+## Update
+
+Copies the git configuration in your home directory back to the repo:
+
+```console
+./update.sh
+```
 
 &nbsp;
 
-Created by [Ian Walter](http://iankwalter.com).
+ISC &copy; [Ian Walter](http://iankwalter.com)
