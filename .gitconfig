@@ -65,3 +65,7 @@
 
 [rerere]
   enabled = true
+
+[commit]
+  # Tell git to automatically sign commits.
+  gpgsign = true
