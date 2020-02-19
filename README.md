@@ -22,8 +22,7 @@
 
 ## Dependencies
 
-* [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - Good-lookin'
-diffs. Actually… nah… The best-lookin' diffs.
+* [delta][deltaUrl] - A syntax-highlighter for git and diff output
 
 ## Installation
 
@@ -43,4 +42,6 @@ Copies the git configuration in your home directory back to the repo:
 
 &nbsp;
 
-ISC &copy; [Ian Walter](http://iankwalter.com)
+ISC &copy; [Ian Walter](http://ianwalter.dev)
+
+[deltaUrl]: https://github.com/dandavison/delta
