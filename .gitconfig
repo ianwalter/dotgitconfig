@@ -62,7 +62,7 @@
 
 [core]
   ignorecase = false
-  pager = delta --dark --plus-color="#014D40" --minus-color="#610316"
+  pager = delta --theme="ansi-dark" --highlight-removed
 
 [rerere]
   enabled = true
