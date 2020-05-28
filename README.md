@@ -40,8 +40,13 @@ Copies the git configuration in your home directory back to the repo:
 ./update.sh
 ```
 
+## License
+
+Hippocratic License - See [LICENSE][licenseUrl]
+
 &nbsp;
 
-ISC &copy; [Ian Walter](http://ianwalter.dev)
+Created by [Ian Walter](https://ianwalter.dev)
 
 [deltaUrl]: https://github.com/dandavison/delta
+[licenseUrl]: https://github.com/ianwalter/dotgitconfig/blob/master/LICENSE

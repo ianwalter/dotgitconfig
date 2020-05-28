@@ -58,7 +58,7 @@
 [user]
   name = Ian Walter
   email = pub@ianwalter.dev
-  signingKey = b1863670a23a3126a627fab2c7f0f9ecc2c7f36f
+  signingKey = FA34106C0F39E8FE6746B20A620EE9507EBB0399
 
 [core]
   ignorecase = false
