@@ -1,6 +1,9 @@
 [push]
   default = current
 
+[pull]
+  rebase = false
+
 [color "branch"]
   current = yellow reverse
   local = yellow
