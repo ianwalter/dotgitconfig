@@ -40,6 +40,10 @@ Copies the git configuration in your home directory back to the repo:
 ./update.sh
 ```
 
+## Cheet sheet
+
+- `git stash save --keep-index` - Stash only unstaged files
+
 ## License
 
 Hippocratic License - See [LICENSE][licenseUrl]
