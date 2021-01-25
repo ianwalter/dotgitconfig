@@ -42,9 +42,9 @@
   # Remove the old tag with this name and tag the latest commit with it.
   retag = "!r() { git tag -d $1 && git push origin :refs/tags/$1 && git tag $1; }; r"
 
-  # Remove branches that have already been merged with master AKA
+  # Remove branches that have already been merged with main AKA
   # 'delete merged'.
-  dm = "!git checkout master && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git checkout -"
+  dm = "!git checkout main && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git checkout -"
 
   # List contributors with number of commits.
   contributors = shortlog --summary --numbered

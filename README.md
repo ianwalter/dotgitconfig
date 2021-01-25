@@ -14,7 +14,7 @@
 * `git amend` - Amend the currently staged files to the latest commit.
 * `git retag` - Remove the old tag with this name and tag the latest commit with
   it.
-* `git dm` - Remove branches that have already been merged with master AKA
+* `git dm` - Remove branches that have already been merged with main AKA
   'delete merged'.
 * `git contributors` - List contributors with number of commits.
 * `git switch <remote> <branch>` - Fetch a branch and check it out.
@@ -53,4 +53,4 @@ Hippocratic License - See [LICENSE][licenseUrl]
 Created by [Ian Walter](https://ianwalter.dev)
 
 [deltaUrl]: https://github.com/dandavison/delta
-[licenseUrl]: https://github.com/ianwalter/dotgitconfig/blob/master/LICENSE
+[licenseUrl]: https://github.com/ianwalter/dotgitconfig/blob/main/LICENSE
