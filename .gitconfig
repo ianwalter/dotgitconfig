@@ -44,7 +44,7 @@
 
   # Remove branches that have already been merged with main AKA
   # 'delete merged'.
-  dm = "!git checkout main && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git checkout -"
+  dm = "!git checkout $1 && git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d && git checkout -"
 
   # List contributors with number of commits.
   contributors = shortlog --summary --numbered
